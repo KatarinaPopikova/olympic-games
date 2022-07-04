@@ -1,0 +1,131 @@
+html{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    color: goldenrod;
+    font-size: 50px;
+    margin: 15px;
+}
+
+#table-div {
+    width: 70%;
+}
+
+#table-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.changeHTML{
+    width: 230px;
+    margin: 20px;
+}
+section{
+    margin-bottom: 70px;
+}
+.icon:hover{
+    filter: invert(65%) sepia(64%) saturate(497%) hue-rotate(7deg) brightness(85%) contrast(89%);
+}
+#add{
+    text-align: center;
+}
+
+.show-member:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+#add th{
+    padding: 25px 25px 15px 25px;
+}
+b{
+    font-size: 30px;
+}
+
+#info-member{
+margin-left: 15%;
+}
+
+@media (max-width: 768px) {
+    #button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #table-div{
+        width: 95%;
+    }
+    h1{
+        font-size: 40px;
+    }
+
+}
+
+
+div[id^='member'],#placement-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#formular{
+    width: 70%;
+    padding: 10px;
+    border: white solid 2px;
+
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#back{
+    margin-left: 3%;
+}
+#success-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#success{
+    text-align: center;
+    border: black solid 3px;
+    background-color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: smaller;
+    padding-bottom: 15px;
+
+}
